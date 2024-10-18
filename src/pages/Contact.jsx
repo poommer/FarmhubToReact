@@ -1,19 +1,18 @@
-export default function GalleryDetails() {
+export default function Contact() {
   return (
-    <>
-      {/* <!-- Preloader Start --> */}
-      <div id="preloader" className="preloader">
-        <div className="box d-grid gap-4">
-          <span className="man-pre m-auto">
-            <img src="../src/assets/img/banner/preloader.png" alt="img" />
-          </span>
-          <span className="p1-clr fz-40 fw-bold text-center d-block">
-            FarmHub
-          </span>
-        </div>
-      </div>
-
-      {/* <!-- Offcanvas Area Start --> */}
+    <div>
+      {/* Preloader Start */}
+      {/* <div id="preloader" className="preloader">
+          <div className="box d-grid gap-4">
+            <span className="man-pre m-auto">
+              <img src="src/assets/img/banner/preloader.png" alt="img" />
+            </span>
+            <span className="p1-clr fz-40 fw-bold text-center d-block">
+              FarmHub
+            </span>
+          </div>
+        </div> */}
+      {/* Offcanvas Area Start  */}
       <div className="fix-area">
         <div className="offcanvas__info">
           <div className="offcanvas__wrapper">
@@ -21,10 +20,7 @@ export default function GalleryDetails() {
               <div className="offcanvas__top d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <a href="index.html">
-                    <img
-                      src="../src/assets/img/logo/favcion.png"
-                      alt="logo-img"
-                    />
+                    <img src="src/assets/img/logo/favcion.png" alt="logo-img" />
                   </a>
                 </div>
                 <div className="offcanvas__close">
@@ -112,9 +108,9 @@ export default function GalleryDetails() {
       </div>
       <div className="offcanvas__overlay"></div>
 
-      {/* <!-- Header Common Adjustment Component --> */}
+      {/* Header Common Adjustment Component */}
 
-      {/* <!-- Search Area Start --> */}
+      {/* Search Area Start */}
       <div className="search-wrap">
         <div className="search-inner">
           <i className="fas fa-times search-close" id="search-close"></i>
@@ -132,13 +128,13 @@ export default function GalleryDetails() {
         </div>
       </div>
 
-      {/* <!-- Hero Section Start --> */}
+      {/* Hero Section Start */}
       <section className="breadcrumnd-banner overflow-hidden">
         <div className="container">
           <div className="breadcrumnd-wrapp">
             <div className="bread-content">
               <h1 className="wow fadeInDown" data-wow-delay=".4s">
-                Gallery Details
+                Contact
               </h1>
               <ul className="bread-listing">
                 <li>
@@ -147,190 +143,152 @@ export default function GalleryDetails() {
                 <li>
                   <i className="fa-solid fa-angle-right"></i>
                 </li>
-                <li>Gallery Details</li>
+                <li>Contact</li>
               </ul>
             </div>
             <div className="bread-thumb d-sm-block d-none">
-              <img src="../src/assets/img/about/tt-slice.png" alt="img" />
+              <img src="src/assets/img/about/tt-slice.png" alt="img" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* <!-- Gallery section --> */}
-      <section className="gallery-detailssection overflow-hidden section-padding white-bg">
+      {/* Talking COntact section */}
+      <section className="talking-section overflow-hidden section-padding">
         <div className="container">
-          <div className="row g-xl-4 g-3 justify-content-center mb-40">
-            <div className="col-lg-4">
-              <div className="gallery-headright-details">
-                <h3>Our Farming</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Amet lectus mi
-                  ultricies dictum facilisis sa Imperdiet massa turpis sit Lorem
-                  ipsum dolor sit amet a consectetur. Amet lectus
-                </p>
-                <div className="author-details">
-                  <div className="author-item">
-                    <span className="aut d-flex align-items-center justify-content-between">
-                      Client
-                      <span>:</span>
-                    </span>
-                    <span className="info">Organic Farming</span>
+          <div className="row g-4 align-items-xl-center flex-row-reverse justify-content-between">
+            <div className="col-md-6">
+              <div className="talking-contact-box">
+                <div className="conatact-box common-contact-inner position-relative">
+                  <div className="section-title mb-40">
+                    <h5 className="p1-clr wow fadeInLeft" data-wow-delay="0.4s">
+                      Contact
+                    </h5>
+                    <h2>Get Touch Here</h2>
                   </div>
-                  <div className="author-item">
-                    <span className="aut d-flex align-items-center justify-content-between">
-                      Author
-                      <span>:</span>
-                    </span>
-                    <span className="info">Nafiz Bhuiyan</span>
-                  </div>
-                  <div className="author-item">
-                    <span className="aut d-flex align-items-center justify-content-between">
-                      Date
-                      <span>:</span>
-                    </span>
-                    <span className="info"></span>
-                  </div>
-                  <div className="author-item">
-                    <span className="aut d-flex align-items-center justify-content-between">
-                      Catagory
-                      <span>:</span>
-                    </span>
-                    <span className="info">Agriculture</span>
-                  </div>
-                  <div className="author-item">
-                    <span className="aut d-flex align-items-center justify-content-between">
-                      Price ap.
-                      <span>:</span>
-                    </span>
-                    <span className="info"></span>
-                  </div>
-                </div>
-                <div className="social-wrapper d-flex align-items-center">
-                  <a href="#" className="white-clr">
-                    <i className="white-clr fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#" className="white-clr">
-                    <svg
-                      width="11"
-                      height="12"
-                      viewBox="0 0 11 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M6.55735 5.16157L10.5183 0.65625H9.57971L6.14039 4.56816L3.39341 0.65625H0.225098L4.37906 6.57174L0.225098 11.2963H1.16378L4.79579 7.16516L7.6968 11.2963H10.8651L6.55712 5.16157H6.55735ZM5.2717 6.62386L4.85082 6.03481L1.502 1.34768H2.94375L5.64629 5.13034L6.06717 5.71939L9.58015 10.6363H8.13839L5.2717 6.62409V6.62386Z"
-                        fill="white-clr"
+                  <form action="#" className="row g-xl-4 g-3">
+                    <div className="col-lg-6">
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        className="form-control"
                       />
-                    </svg>
-                  </a>
-                  <a href="#" className="white-clr">
-                    <i className="white-clr fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="#" className="white-clr">
-                    <i className="white-clr fa-brands fa-pinterest-p"></i>
-                  </a>
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        type="email"
+                        placeholder="E-mail"
+                        className="form-control"
+                      />
+                    </div>
+                    <div className="col-lg-12">
+                      <input
+                        type="text"
+                        placeholder="Subject"
+                        className="form-control"
+                      />
+                    </div>
+                    <div className="col-lg-12">
+                      <textarea
+                        name="message"
+                        placeholder="Message"
+                        className="form-control"
+                      ></textarea>
+                    </div>
+                    <div className="col-lg-6">
+                      <button type="submit" className="cmn-btn text-capitalize">
+                        Submit Now
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
-            <div className="col-lg-8">
-              <div className="gallery-headleft-details">
+            <div className="col-md-6">
+              <div
+                className="taklking-cotnact-thumb w-100 wow fadeInRight"
+                data-wow-delay=".4s"
+              >
                 <img
-                  src="../src/assets/img/gallery/gallery-details-thumb1.jpg"
+                  src="src/assets/img/contact/talking-contact.png"
                   alt="img"
+                  className="w-100"
                 />
-                <div className="content">
-                  <h3>Cultivate Success with Agriculture</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Amet lectus mi
-                    ultricies dictum facilisis sem. a Imperdiet massa turpis sit
-                    Lorem ipsum dolor sit amet consectetur. Amet lectus mi the
-                    ultricies dictum facilisis sem. Imperdiet best destination
-                    in the world
-                  </p>
-                </div>
               </div>
             </div>
           </div>
-          <div className="more-content-gallery">
+        </div>
+      </section>
+
+      {/* Google Map */}
+      <section className="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52816169.558200695!2d-161.49265223136007!3d36.102185713814805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1717004161632!5m2!1sen!2sbd"
+          allowfullscreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      {/* Contact Info Start */}
+      <section className="contact-infosectionv1 space-top overflow-hidden space-bottom">
+        <div className="container">
+          <div className="row g-lg-4 g-3 justify-content-center">
             <div
-              className="thumb w-100 mb-40 wow fadeInUp"
+              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <img
-                src="../src/assets/img/gallery/gallery-details-thumb12.jpg"
-                alt="img"
-                className="w-100"
-              />
+              <div className="contact-call-info">
+                <div className="icon d-center">
+                  <i className="fa-solid fa-location-dot"></i>
+                </div>
+                <div className="co-box">
+                  <h5 className="black">Address</h5>
+                  <a href="#" className="pra">
+                    Dhaka 102, 8000 sent behaibior utl <br /> 1216, road 45
+                    house of street
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="cont-box1 mb-40 wow fadeInUp" data-wow-delay=".4s">
-              <h3>Reach New Heights with Digital Marketing</h3>
-              <p>
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion for our Company. We have to a tendency to
-                believe the idea that smart looking of any websitet in on
-                visitors.Web designing in a powerful way of just not an only
-                profession Web designing in a powerful way of just not an Web
-                designing in a powerful way of just not an only professions,
-                however, in a passion for our Company. We have to a tendency to
-                believe the idea that smart looking of any websitet in on
-                visitors.Web designing in a powerful way of just not an only
-                profession Web designing in a powerful way of just not an only
-              </p>
+            <div
+              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="contact-call-info">
+                <div className="icon d-center">
+                  <i className="fa-solid fa-phone"></i>
+                </div>
+                <div className="co-box">
+                  <h5 className="black">Lets Talk us</h5>
+                  <a href="#" className="pra">
+                    Phone number: +32566 - 800 - 890 <br />
+                    Fax: 1234 -58963 - 007
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="cont-box2 mb-40 wow fadeInUp" data-wow-delay=".5s">
-              <h3>Planting the Seeds of Innovation</h3>
-              <p>
-                Web designing in a powerful way of just not an only professions,
-                however, in a passion for our Company. We have to a tendency to
-                believe the idea that smart looking of any websitet in on
-                visitors.Web designing in a powerful way of just not an only
-                profession Web designing in a powerful way of just not an only
-              </p>
-            </div>
-            <div className="other-listing wow fadeInUp" data-wow-delay=".6s">
-              <ul>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Cultivate Success with Agriculture</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Harvest the Power of Agriculture</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Sow the Seeds of Prosperity</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>From Farm to Table, Agriculture</h5>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Discover the Potential of Agriculture</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Nourish Your Life with Agriculture</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Petal Pathways Landscaping</h5>
-                </li>
-                <li>
-                  <i className="fa-regular fa-circle-dot"></i>
-                  <h5>Secret Farming Retreat</h5>
-                </li>
-              </ul>
+            <div
+              className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="contact-call-info">
+                <div className="icon d-center">
+                  <i className="fa-solid fa-envelope"></i>
+                </div>
+                <div className="co-box">
+                  <h5 className="black">Send us email</h5>
+                  <a href="#" className="pra">
+                    demo0023yourmailhotmail.com <br />
+                    demo23yourmail.com
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* <!--<< Subscribe Start >>--> */}
       <div className="subscrbie-section subscrbie-stylev03">
         <div className="container">
           <div className="subscribe-wrapper-v03">
@@ -339,7 +297,7 @@ export default function GalleryDetails() {
                 <div className="col-lg-6 col-md-6 mb-xl-5 pb-xl-4">
                   <div className="get-element">
                     <img
-                      src="../src/assets/img/element/get-element.png"
+                      src="src/assets/img/element/get-element.png"
                       alt="img"
                       className="d-md-block d-none"
                     />
@@ -396,9 +354,9 @@ export default function GalleryDetails() {
                         </button>
                       </div>
                     </form>
-                    {/* <!-- Element --> */}
+                    Element
                     <img
-                      src="../src/assets/img/element/sun-element.png"
+                      src="src/assets/img/element/sun-element.png"
                       alt="img"
                       className="sun-element d-xl-block d-none"
                     />
@@ -410,7 +368,6 @@ export default function GalleryDetails() {
         </div>
       </div>
 
-      {/* <!--<< Footer Section Start >>--> */}
       <footer className="footer-section overflow-hidden position-relative footer-style3">
         <div className="footer-widgets-wrapper footer-widget-wrapperv03">
           <div className="container">
@@ -423,7 +380,7 @@ export default function GalleryDetails() {
                   <div className="widget-head">
                     <a href="index.html" className="footer-logo">
                       <img
-                        src="../src/assets/img/logo/logo-light.png"
+                        src="src/assets/img/logo/logo-light.png"
                         alt="logo-img"
                       />
                     </a>
@@ -525,12 +482,12 @@ export default function GalleryDetails() {
                     <h3 className="white-clr">Newslatter</h3>
                   </div>
                   <div className="latest-thumwrap">
-                    <img src="../src/assets/img/footer/ln1.png" alt="img" />
-                    <img src="../src/assets/img/footer/ln2.png" alt="img" />
-                    <img src="../src/assets/img/footer/ln3.png" alt="img" />
-                    <img src="../src/assets/img/footer/ln4.png" alt="img" />
-                    <img src="../src/assets/img/footer/ln5.png" alt="img" />
-                    <img src="../src/assets/img/footer/ln6.png" alt="img" />
+                    <img src="src/assets/img/footer/ln1.png" alt="img" />
+                    <img src="src/assets/img/footer/ln2.png" alt="img" />
+                    <img src="src/assets/img/footer/ln3.png" alt="img" />
+                    <img src="src/assets/img/footer/ln4.png" alt="img" />
+                    <img src="src/assets/img/footer/ln5.png" alt="img" />
+                    <img src="src/assets/img/footer/ln6.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -558,6 +515,6 @@ export default function GalleryDetails() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
